@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  font-family: "Share Tech Mono", monospace;
+  background-image: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.relogio {
+  display: flex;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.relogio div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 13px;
+  height: 100px;
+  width: 100px;
+}
+
+.texto {
+  margin: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+#hora,
+#minuto,
+#segundo {
+  color: #fff;
+  padding: 13px;
+  align-items: center;
+  text-align: center;
+}
